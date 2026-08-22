@@ -1,5 +1,9 @@
 # 数据原则
 
+<p align="center">
+  <img src="../assets/trust-boundary.svg" alt="市场事实、执行所需证据与不可猜测未知的边界图" width="100%" />
+</p>
+
 51taoli 的核心不是“把数字放得多”，而是让每个可见结论能追溯到正确的事实边界。
 
 ## 1. 只展示可验证来源
