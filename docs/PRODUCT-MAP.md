@@ -2,6 +2,8 @@
 
 [**从“套利机会”开始 →**](https://51taoli.com/opportunities)
 
+![从套利机会进入交易、资金费、指数、策略、辅助信息和账户页面的地图](../assets/product-map.svg)
+
 | 页面 | 适合查看什么 |
 | --- | --- |
 | **套利机会** `/opportunities` | FF / SF / FS 路线和当前市场观察 |

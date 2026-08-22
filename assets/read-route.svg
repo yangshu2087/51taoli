@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="430" viewBox="0 0 1240 430" role="img" aria-labelledby="title desc">
+  <title id="title">读一条跨市场路线的重点</title>
+  <desc id="desc">多腿使用 ask，空腿使用 bid，并查看开差、资金费、时间和资产身份。</desc>
+  <rect width="1240" height="430" rx="28" fill="#f6f7f9"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+    <text x="64" y="72" fill="#17191d" font-size="34" font-weight="700">读一条路线，重点看这五个位置</text>
+    <text x="64" y="108" fill="#667085" font-size="18">把页面上的字段按用途分开看，结论会更清楚。</text>
+    <g transform="translate(64 155)">
+      <g><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#eaf2ff"/><text x="58" y="45" text-anchor="middle" fill="#1f6feb" font-size="14" font-weight="700">第一步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">多腿</text><text x="24" y="122" fill="#4b5563" font-size="17">买入看 ask</text><text x="24" y="152" fill="#667085" font-size="15">在哪个市场做多</text></g>
+      <g transform="translate(227)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#eef8f5"/><text x="58" y="45" text-anchor="middle" fill="#078567" font-size="14" font-weight="700">第二步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">空腿</text><text x="24" y="122" fill="#4b5563" font-size="17">卖出看 bid</text><text x="24" y="152" fill="#667085" font-size="15">在哪个市场做空</text></g>
+      <g transform="translate(454)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#fff5df"/><text x="58" y="45" text-anchor="middle" fill="#a46900" font-size="14" font-weight="700">第三步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">开差</text><text x="24" y="122" fill="#4b5563" font-size="17">两边报价的距离</text><text x="24" y="152" fill="#667085" font-size="15">作为继续研究入口</text></g>
+      <g transform="translate(681)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#f4edff"/><text x="58" y="45" text-anchor="middle" fill="#7c3aed" font-size="14" font-weight="700">第四步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">资金费</text><text x="24" y="122" fill="#4b5563" font-size="17">费率与结算周期</text><text x="24" y="152" fill="#667085" font-size="15">查看持有期间条件</text></g>
+      <g transform="translate(908)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#fff0f1"/><text x="58" y="45" text-anchor="middle" fill="#cf3d50" font-size="14" font-weight="700">第五步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">时间与身份</text><text x="24" y="122" fill="#4b5563" font-size="17">数据是否可比</text><text x="24" y="152" fill="#667085" font-size="15">字段是否足够新</text></g>
+    </g>
+  </g>
+</svg>
