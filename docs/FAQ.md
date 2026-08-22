@@ -62,5 +62,4 @@ Telegram 官方机器人用于社群答疑、规则、状态和公告支持。�
 
 请通过官方社群或 GitHub Issues 提供：资产、交易所、页面链接或截图、发生时间和时区、问题描述及复现步骤。提交前请移除账户、订单、地址、密钥、验证码和 Token 等敏感信息。
 
-- [提交数据问题](../.github/ISSUE_TEMPLATE/data-report.md)
-- [提交一般问题](../.github/ISSUE_TEMPLATE/question.md)
+- [提交 GitHub Issue](https://github.com/yangshu2087/51taoli/issues/new/choose)

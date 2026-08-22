@@ -8,7 +8,7 @@
 2. **理解页面上的数字**：阅读 [核心概念](CONCEPTS.md)；
 3. **了解数据边界**：阅读 [数据原则](DATA-PRINCIPLES.md)；
 4. **解决常见使用问题**：阅读 [FAQ](FAQ.md)；
-5. **提交可复现反馈**：使用 [数据问题模板](../.github/ISSUE_TEMPLATE/data-report.md) 或 [一般问题模板](../.github/ISSUE_TEMPLATE/question.md)。
+5. **提交可复现反馈**：使用 [GitHub Issues](https://github.com/yangshu2087/51taoli/issues/new/choose)。
 
 ## 公开资料的边界
 

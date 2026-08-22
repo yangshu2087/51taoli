@@ -79,6 +79,6 @@
 
 ## 反馈问题
 
-欢迎通过 [GitHub Issues](../../issues) 或官方社群反馈问题。提交数据问题时，请提供资产、交易所、页面链接或截图、发生时间和时区、复现步骤；请先删除所有账户、订单、地址、密码、私钥、API Key、验证码和 Token。
+欢迎通过 [GitHub Issues](https://github.com/yangshu2087/51taoli/issues) 或官方社群反馈问题。提交数据问题时，请提供资产、交易所、页面链接或截图、发生时间和时区、复现步骤；请先删除所有账户、订单、地址、密码、私钥、API Key、验证码和 Token。
 
 安全问题请先阅读 [SECURITY.md](SECURITY.md)。
