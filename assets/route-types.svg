@@ -1,14 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="470" viewBox="0 0 1240 470" role="img" aria-labelledby="title desc">
-  <title id="title">FF、SF、FS 三种路线类型</title>
-  <desc id="desc">FF 为期货对期货，SF 为现货多期货空，FS 为期货多现货空。</desc>
-  <rect width="1240" height="470" rx="28" fill="#f6f7f9"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
-    <text x="64" y="74" fill="#17191d" font-size="34" font-weight="700">三种路线类型：FF、SF、FS</text>
-    <text x="64" y="110" fill="#667085" font-size="18">先看市场组合，再看每条腿的方向。</text>
-    <g transform="translate(64 160)">
-      <g><rect width="340" height="218" rx="20" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="28" y="45" fill="#1f6feb" font-size="27" font-weight="700">FF · 期–期</text><text x="28" y="78" fill="#4b5563" font-size="16">合约 / 永续与合约 / 永续</text><rect x="28" y="112" width="112" height="54" rx="11" fill="#17191d"/><text x="84" y="145" text-anchor="middle" fill="#fff" font-size="17">期货 · 多</text><path d="M151 139h40" stroke="#a9b3be" stroke-width="3"/><path d="M180 128l12 11-12 11" fill="none" stroke="#a9b3be" stroke-width="3"/><rect x="202" y="112" width="112" height="54" rx="11" fill="#17191d"/><text x="258" y="145" text-anchor="middle" fill="#fff" font-size="17">期货 · 空</text><text x="28" y="198" fill="#667085" font-size="15">适合比较两个合约市场</text></g>
-      <g transform="translate(386)"><rect width="340" height="218" rx="20" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="28" y="45" fill="#1f6feb" font-size="27" font-weight="700">SF · 现–期</text><text x="28" y="78" fill="#4b5563" font-size="16">现货多与合约 / 永续空</text><rect x="28" y="112" width="112" height="54" rx="11" fill="#00a884"/><text x="84" y="145" text-anchor="middle" fill="#fff" font-size="17">现货 · 多</text><path d="M151 139h40" stroke="#a9b3be" stroke-width="3"/><path d="M180 128l12 11-12 11" fill="none" stroke="#a9b3be" stroke-width="3"/><rect x="202" y="112" width="112" height="54" rx="11" fill="#17191d"/><text x="258" y="145" text-anchor="middle" fill="#fff" font-size="17">期货 · 空</text><text x="28" y="198" fill="#667085" font-size="15">适合比较现货和合约</text></g>
-      <g transform="translate(772)"><rect width="340" height="218" rx="20" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="28" y="45" fill="#1f6feb" font-size="27" font-weight="700">FS · 期–现</text><text x="28" y="78" fill="#4b5563" font-size="16">合约 / 永续多与现货空</text><rect x="28" y="112" width="112" height="54" rx="11" fill="#17191d"/><text x="84" y="145" text-anchor="middle" fill="#fff" font-size="17">期货 · 多</text><path d="M151 139h40" stroke="#a9b3be" stroke-width="3"/><path d="M180 128l12 11-12 11" fill="none" stroke="#a9b3be" stroke-width="3"/><rect x="202" y="112" width="112" height="54" rx="11" fill="#d94e5d"/><text x="258" y="145" text-anchor="middle" fill="#fff" font-size="17">现货 · 空</text><text x="28" y="198" fill="#667085" font-size="15">适合进一步查看借贷条件</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="620" viewBox="0 0 1680 620" role="img" aria-labelledby="title desc">
+  <title id="title">51taoli 七类路线</title>
+  <desc id="desc">第一位字母表示做多腿，第二位字母表示做空腿。S 是加密现货，F 是衍生品，T 是 TradFi 或 RWA 产品。</desc>
+  <rect width="1680" height="620" rx="32" fill="#f5f7fa"/>
+  <text x="72" y="78" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="40" font-weight="700" fill="#111827">七类路线：第一位做多，第二位做空</text>
+  <text x="72" y="125" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#667085">S = 加密现货　F = 衍生品　T = TradFi / RWA</text>
+
+  <g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">
+    <g transform="translate(72 176)">
+      <rect width="360" height="158" rx="22" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#111827">FF</text>
+      <text x="28" y="96" font-size="24" fill="#344054">衍生品多 → 衍生品空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">跨衍生品市场</text>
+    </g>
+    <g transform="translate(456 176)">
+      <rect width="360" height="158" rx="22" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#111827">SF</text>
+      <text x="28" y="96" font-size="24" fill="#344054">现货多 → 衍生品空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">正向期现 / 跨所基差</text>
+    </g>
+    <g transform="translate(840 176)">
+      <rect width="360" height="158" rx="22" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#111827">FS</text>
+      <text x="28" y="96" font-size="24" fill="#344054">衍生品多 → 现货空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">反向期现，需核对借贷</text>
+    </g>
+    <g transform="translate(1224 176)">
+      <rect width="384" height="158" rx="22" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#111827">SS</text>
+      <text x="28" y="96" font-size="24" fill="#344054">现货多 → 现货空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">跨现货市场</text>
+    </g>
+
+    <g transform="translate(264 366)">
+      <rect width="360" height="158" rx="22" fill="#ecfdf3" stroke="#6ce9a6"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#067647">TF</text>
+      <text x="28" y="96" font-size="24" fill="#344054">TradFi 多 → 衍生品空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">跨传统与加密市场</text>
+    </g>
+    <g transform="translate(648 366)">
+      <rect width="360" height="158" rx="22" fill="#ecfdf3" stroke="#6ce9a6"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#067647">FT</text>
+      <text x="28" y="96" font-size="24" fill="#344054">衍生品多 → TradFi 空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">方向相反的跨市场路线</text>
+    </g>
+    <g transform="translate(1032 366)">
+      <rect width="384" height="158" rx="22" fill="#ecfdf3" stroke="#6ce9a6"/>
+      <text x="28" y="55" font-size="34" font-weight="700" fill="#067647">TT</text>
+      <text x="28" y="96" font-size="24" fill="#344054">TradFi 多 → TradFi 空</text>
+      <text x="28" y="130" font-size="20" fill="#667085">跨 TradFi / RWA 市场</text>
     </g>
   </g>
 </svg>
