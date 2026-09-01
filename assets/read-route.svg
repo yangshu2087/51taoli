@@ -1,16 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="430" viewBox="0 0 1240 430" role="img" aria-labelledby="title desc">
-  <title id="title">读一条跨市场路线的重点</title>
-  <desc id="desc">多腿使用 ask，空腿使用 bid，并查看开差、资金费、时间和资产身份。</desc>
-  <rect width="1240" height="430" rx="28" fill="#f6f7f9"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
-    <text x="64" y="72" fill="#17191d" font-size="34" font-weight="700">读一条路线，重点看这五个位置</text>
-    <text x="64" y="108" fill="#667085" font-size="18">把页面上的字段按用途分开看，结论会更清楚。</text>
-    <g transform="translate(64 155)">
-      <g><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#eaf2ff"/><text x="58" y="45" text-anchor="middle" fill="#1f6feb" font-size="14" font-weight="700">第一步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">多腿</text><text x="24" y="122" fill="#4b5563" font-size="17">买入看 ask</text><text x="24" y="152" fill="#667085" font-size="15">在哪个市场做多</text></g>
-      <g transform="translate(227)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#eef8f5"/><text x="58" y="45" text-anchor="middle" fill="#078567" font-size="14" font-weight="700">第二步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">空腿</text><text x="24" y="122" fill="#4b5563" font-size="17">卖出看 bid</text><text x="24" y="152" fill="#667085" font-size="15">在哪个市场做空</text></g>
-      <g transform="translate(454)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#fff5df"/><text x="58" y="45" text-anchor="middle" fill="#a46900" font-size="14" font-weight="700">第三步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">开差</text><text x="24" y="122" fill="#4b5563" font-size="17">两边报价的距离</text><text x="24" y="152" fill="#667085" font-size="15">作为继续研究入口</text></g>
-      <g transform="translate(681)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#f4edff"/><text x="58" y="45" text-anchor="middle" fill="#7c3aed" font-size="14" font-weight="700">第四步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">资金费</text><text x="24" y="122" fill="#4b5563" font-size="17">费率与结算周期</text><text x="24" y="152" fill="#667085" font-size="15">查看持有期间条件</text></g>
-      <g transform="translate(908)"><rect width="204" height="184" rx="18" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><rect x="24" y="24" width="68" height="30" rx="15" fill="#fff0f1"/><text x="58" y="45" text-anchor="middle" fill="#cf3d50" font-size="14" font-weight="700">第五步</text><text x="24" y="90" fill="#17191d" font-size="22" font-weight="700">时间与身份</text><text x="24" y="122" fill="#4b5563" font-size="17">数据是否可比</text><text x="24" y="152" fill="#667085" font-size="15">字段是否足够新</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="520" viewBox="0 0 1680 520" role="img" aria-labelledby="title desc">
+  <title id="title">从理论价差到风险调整净边际</title>
+  <desc id="desc">先读方向正确的理论价差，再核对深度费用和滑点得到可执行价差，最后考虑资金费、借贷、退出、身份与市场变化。</desc>
+  <rect width="1680" height="520" rx="32" fill="#0f172a"/>
+  <text x="72" y="82" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="40" font-weight="700" fill="#ffffff">一个正数，需要经过三层检查</text>
+  <text x="72" y="128" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#cbd5e1">不要把页面上的理论价差直接当成收益</text>
+
+  <g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">
+    <g transform="translate(72 184)">
+      <rect width="430" height="252" rx="24" fill="#ffffff"/>
+      <text x="30" y="50" font-size="20" font-weight="700" fill="#10b981">01　先看方向</text>
+      <text x="30" y="98" font-size="32" font-weight="700" fill="#111827">理论价差</text>
+      <text x="30" y="143" font-size="22" fill="#475467">做多腿 ask</text>
+      <text x="30" y="178" font-size="22" fill="#475467">做空腿 bid</text>
+      <text x="30" y="220" font-size="20" fill="#667085">回答：两条腿相距多远？</text>
+    </g>
+    <text x="525" y="325" font-size="48" fill="#94a3b8">→</text>
+    <g transform="translate(580 184)">
+      <rect width="430" height="252" rx="24" fill="#ffffff"/>
+      <text x="30" y="50" font-size="20" font-weight="700" fill="#10b981">02　再看成交</text>
+      <text x="30" y="98" font-size="32" font-weight="700" fill="#111827">可执行价差</text>
+      <text x="30" y="143" font-size="22" fill="#475467">金额 · 深度 · 滑点</text>
+      <text x="30" y="178" font-size="22" fill="#475467">交易费 · 可用市场</text>
+      <text x="30" y="220" font-size="20" fill="#667085">回答：按你的条件能否成交？</text>
+    </g>
+    <text x="1033" y="325" font-size="48" fill="#94a3b8">→</text>
+    <g transform="translate(1088 184)">
+      <rect width="520" height="252" rx="24" fill="#ecfdf3" stroke="#6ce9a6"/>
+      <text x="30" y="50" font-size="20" font-weight="700" fill="#067647">03　最后看完整条件</text>
+      <text x="30" y="98" font-size="32" font-weight="700" fill="#111827">风险调整净边际</text>
+      <text x="30" y="143" font-size="22" fill="#475467">资金费 · 借贷 · 充提 · 退出</text>
+      <text x="30" y="178" font-size="22" fill="#475467">身份 · 时间 · 单位 · 市场变化</text>
+      <text x="30" y="220" font-size="20" fill="#667085">回答：证据是否足以继续研究？</text>
     </g>
   </g>
 </svg>

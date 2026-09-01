@@ -1,25 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="610" viewBox="0 0 1240 610" role="img" aria-labelledby="title desc">
-  <title id="title">51taoli 官网页面地图</title>
-  <desc id="desc">从套利机会进入交易、资金费、指数、辅助信息、策略和账户页面。</desc>
-  <rect width="1240" height="610" rx="28" fill="#f6f7f9"/>
-  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
-    <text x="64" y="76" fill="#17191d" font-size="34" font-weight="700">官网从哪里看起？</text>
-    <text x="64" y="112" fill="#667085" font-size="18">从“套利机会”进入，再按问题打开相应页面。</text>
-    <g transform="translate(64 156)">
-      <rect width="1112" height="94" rx="18" fill="#17191d"/>
-      <text x="30" y="39" fill="#fff" font-size="25" font-weight="700">套利机会</text><text x="30" y="69" fill="#d8dee8" font-size="17">从资产、交易所和路线找到当前需要研究的对象。</text>
-      <rect x="908" y="24" width="172" height="46" rx="23" fill="#1f6feb"/><text x="994" y="54" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">/opportunities</text>
-      <path d="M556 110v36" stroke="#a9b3be" stroke-width="3"/><path d="M544 134l12 12 12-12" fill="none" stroke="#a9b3be" stroke-width="3"/>
-      <g transform="translate(0 168)">
-        <g><rect width="260" height="126" rx="17" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="25" y="39" fill="#17191d" font-size="21" font-weight="700">交易</text><text x="25" y="72" fill="#4b5563" font-size="16">资产、类别、路线筛选</text><text x="25" y="101" fill="#1f6feb" font-size="14">/trade</text></g>
-        <g transform="translate(284)"><rect width="260" height="126" rx="17" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="25" y="39" fill="#17191d" font-size="21" font-weight="700">资金费</text><text x="25" y="72" fill="#4b5563" font-size="16">费率、周期、已结算记录</text><text x="25" y="101" fill="#1f6feb" font-size="14">Funding</text></g>
-        <g transform="translate(568)"><rect width="260" height="126" rx="17" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="25" y="39" fill="#17191d" font-size="21" font-weight="700">指数</text><text x="25" y="72" fill="#4b5563" font-size="16">指数价、标记价、比较</text><text x="25" y="101" fill="#1f6feb" font-size="14">/indices</text></g>
-        <g transform="translate(852)"><rect width="260" height="126" rx="17" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="25" y="39" fill="#17191d" font-size="21" font-weight="700">策略</text><text x="25" y="72" fill="#4b5563" font-size="16">规则、状态和机会</text><text x="25" y="101" fill="#1f6feb" font-size="14">/playbook</text></g>
-      </g>
-      <g transform="translate(0 322)">
-        <rect width="538" height="82" rx="17" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="25" y="34" fill="#17191d" font-size="20" font-weight="700">辅助信息</text><text x="25" y="63" fill="#4b5563" font-size="16">公告 · 冲提 · 借贷</text>
-        <rect x="574" width="538" height="82" rx="17" fill="#fff" stroke="#dfe3e8" stroke-width="2"/><text x="599" y="34" fill="#17191d" font-size="20" font-weight="700">账户与订阅</text><text x="599" y="63" fill="#4b5563" font-size="16">登录 · 权限 · 订阅 · 通知</text>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="720" viewBox="0 0 1680 720" role="img" aria-labelledby="title desc">
+  <title id="title">51taoli 产品页面地图</title>
+  <desc id="desc">从机会总览和交易看板开始，继续查看市场证据、监控策略以及账户订阅。</desc>
+  <rect width="1680" height="720" rx="32" fill="#f5f7fa"/>
+  <text x="72" y="80" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="40" font-weight="700" fill="#111827">从发现路线，到持续跟踪</text>
+  <text x="72" y="126" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#667085">每个页面只解决一类问题，需要时再继续深入</text>
+
+  <g font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif">
+    <g transform="translate(72 180)">
+      <rect width="360" height="192" rx="24" fill="#111827"/>
+      <text x="30" y="55" font-size="20" font-weight="700" fill="#6ce9a6">发现</text>
+      <text x="30" y="104" font-size="32" font-weight="700" fill="#ffffff">机会总览</text>
+      <text x="30" y="141" font-size="22" fill="#d0d5dd">资产 · 类别 · 七类路线</text>
+      <text x="30" y="172" font-size="18" fill="#98a2b3">/opportunities</text>
+    </g>
+    <text x="458" y="292" font-size="48" fill="#98a2b3">→</text>
+    <g transform="translate(520 180)">
+      <rect width="360" height="192" rx="24" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="30" y="55" font-size="20" font-weight="700" fill="#067647">比较</text>
+      <text x="30" y="104" font-size="32" font-weight="700" fill="#111827">交易看板</text>
+      <text x="30" y="141" font-size="22" fill="#475467">报价 · 价差 · 资金费</text>
+      <text x="30" y="172" font-size="18" fill="#667085">/trade</text>
+    </g>
+    <text x="906" y="292" font-size="48" fill="#98a2b3">→</text>
+    <g transform="translate(968 180)">
+      <rect width="640" height="192" rx="24" fill="#ecfdf3" stroke="#6ce9a6"/>
+      <text x="30" y="55" font-size="20" font-weight="700" fill="#067647">补证据</text>
+      <text x="30" y="104" font-size="32" font-weight="700" fill="#111827">资金费 · 公告 · 充提 · 借贷 · 指数</text>
+      <text x="30" y="141" font-size="22" fill="#475467">核对进入、持有与退出条件</text>
+      <text x="30" y="172" font-size="18" fill="#667085">funding · announcements · deposit-withdraw · lending · indices</text>
+    </g>
+
+    <g transform="translate(72 432)">
+      <rect width="470" height="206" rx="24" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="30" y="55" font-size="20" font-weight="700" fill="#067647">持续跟踪</text>
+      <text x="30" y="104" font-size="32" font-weight="700" fill="#111827">监控</text>
+      <text x="30" y="143" font-size="22" fill="#475467">七类提醒 · 未读 · 失败状态</text>
+      <text x="30" y="176" font-size="18" fill="#667085">/monitor</text>
+    </g>
+    <g transform="translate(605 432)">
+      <rect width="470" height="206" rx="24" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="30" y="55" font-size="20" font-weight="700" fill="#067647">按规则研究</text>
+      <text x="30" y="104" font-size="32" font-weight="700" fill="#111827">策略</text>
+      <text x="30" y="143" font-size="22" fill="#475467">S01–S50 · 状态 · 真实样本</text>
+      <text x="30" y="176" font-size="18" fill="#667085">/playbook</text>
+    </g>
+    <g transform="translate(1138 432)">
+      <rect width="470" height="206" rx="24" fill="#ffffff" stroke="#d0d5dd"/>
+      <text x="30" y="55" font-size="20" font-weight="700" fill="#067647">个人设置</text>
+      <text x="30" y="104" font-size="32" font-weight="700" fill="#111827">订阅 · 账户 · 推广</text>
+      <text x="30" y="143" font-size="22" fill="#475467">权限 · 额度 · 飞书地址</text>
+      <text x="30" y="176" font-size="18" fill="#667085">/subscription · /account · /promote</text>
     </g>
   </g>
 </svg>
